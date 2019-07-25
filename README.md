@@ -6,22 +6,20 @@ Inspired by [KrauseFx](https://github.com/KrauseFx)'s [new-mac](https://github.c
 
 ## Setup shell
 
-- [ ] Install [homebrew](https://brew.sh)
-- [ ] Install [Caskfile](Caskfile) and [Brewfile](Brewfile)
-- [ ] Install [iTerm 3](https://www.iterm2.com/version3.html)
+- [ ] Run [One Script to Rule Them All](one_script_to_rule_them_all.sh) on bash
+  - [ ] Install [homebrew](https://brew.sh) and run [Brewfile](Brewfile)
 - [ ] Login locally on GitHub
 - [ ] Login locally on Bitbucket
 - [ ] Login locally on Gitlab
 - [ ] Setup CocoaPods Trunk
 - [ ] [Disable Ruby documentation parsing](http://mts.io/2015/04/19/fix-slow-gem-install/)
-- [ ] Install [zeit now](https://zeit.co/) `npm install -g now`
 
 ## Alfred
 
-- [ ] [Download](https://www.alfredapp.com/) and enable it for CMD + space
+- [ ] Enable it for CMD + space
 - [ ] Enable sync via Google Drive
 
-## Sublime Text
+## Sublime Text and Visual Studio Code
 
 - [ ] Migrate settings
 - [ ] Install plugins
@@ -38,8 +36,6 @@ Inspired by [KrauseFx](https://github.com/KrauseFx)'s [new-mac](https://github.c
 
 ## Install and setup
 
-- [ ] Google Drive
-- [ ] [Telegram](https://itunes.apple.com/us/app/telegram/id747648890?mt=12)
 - [ ] [Apple watch screensaver](http://www.rasmusnielsen.dk/applewatch/)
 
 ## Mac App Store
@@ -47,7 +43,6 @@ Inspired by [KrauseFx](https://github.com/KrauseFx)'s [new-mac](https://github.c
 - [ ] [Trello](https://itunes.apple.com/us/app/trello/id1278508951?mt=12)
 - [ ] Extractor
 - [ ] Aware
-- [ ] 1Password
 - [ ] Quicktype
 
 ## Uninstall
