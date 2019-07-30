@@ -23,11 +23,15 @@ cask install iterm2
 cask install sequel-pro
 cask install sourcetree
 cask install fastlane
+cask install quicklook-json
+cask install provisionql
+cask install qlplayground
 
 # Mac Experience
 cask install spectacle
 cask install karabiner
 cask install alfred
+cask install monolingual
 
 # Apps
 cask install lastpass
@@ -35,9 +39,12 @@ cask install google-chrome
 cask install slack
 cask install macdown
 cask install telegram
+cask install franz
+cask install discord
 
 # Personal Apps
 cask install steam
 cask install spotify
 cask install vlc
 cask install iina
+cask install youtube-to-mp3
