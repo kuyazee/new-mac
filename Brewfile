@@ -3,6 +3,11 @@ install node
 install openssl
 install docker
 install sqlite
+install vapor/tap/vapor
+install swiftlint
+install swiftformat
+install sourcedocs
+install postgres
 
 # Work
 cask install android-studio
