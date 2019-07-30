@@ -12,6 +12,7 @@ install cocoapods
 install zsh
 install youtube-dl
 install wget
+install fzf
 install mxcl/made/swift-sh
 
 # Work
