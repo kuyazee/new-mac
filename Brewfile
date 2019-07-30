@@ -23,15 +23,23 @@ cask install iterm2
 cask install sequel-pro
 cask install sourcetree
 cask install fastlane
-cask install quicklook-json
-cask install provisionql
-cask install qlplayground
 
 # Mac Experience
 cask install spectacle
 cask install karabiner
 cask install alfred
 cask install monolingual
+
+# Quicklook
+cask install suspicious-package
+cask install quicklook-json
+cask install provisionql
+cask install qlplayground
+cask install quicklookase
+cask install qlvideo
+cask install quicklookapk
+cask install webpquicklook
+cask install qlstephen
 
 # Apps
 cask install lastpass
