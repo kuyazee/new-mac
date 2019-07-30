@@ -8,6 +8,11 @@ install swiftlint
 install swiftformat
 install sourcedocs
 install postgres
+install cocoapods
+install zsh
+install youtube-dl
+install wget
+install mxcl/made/swift-sh
 
 # Work
 cask install android-studio
