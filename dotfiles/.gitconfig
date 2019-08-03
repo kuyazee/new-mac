@@ -1,0 +1,6 @@
+[user]
+	email = zonilyjame@gmail.com
+	name = Zonily Jame
+[core]
+	safecrlf = false
+	editor = /usr/bin/vim
