@@ -1,26 +1,32 @@
 # new-mac
 
-I'm lazy, as such I whenever I get a new Mac machine I want it to be Automagically setup.
-
 Here's my one script to rule them all, find them, bring them all, and while I'm drinking coffee, bind them.
 
-# Setup shell
+>  Note: I'm lazy, as such whenever I get a new MacOS machine I want it to be Automagically setup.
 
-## Run [install.sh](install.sh).
+# Installation
+
+Run [install.sh](install.sh) on the terminal.
+
+```bash
+sh install.sh
+```
 
 This script does the following
+
 - Setup dotfiles
 - Setup mac preferences
 - Install Homebrew
 - Install the mac apps I use
 
-## After the Script runs
+## Things todo after the script finishes
 
 - Login locally on LastPass
 - Login locally on GitHub
 - Login locally on Bitbucket
 - Login locally on Gitlab
 - Setup CocoaPods Trunk
+- Run Monolingual and remove unused locales
 - [Disable Ruby documentation parsing](http://mts.io/2015/04/19/fix-slow-gem-install/)
 - Install and setup the following
     - [Apple watch screensaver](http://www.rasmusnielsen.dk/applewatch/)
@@ -38,7 +44,7 @@ This script does the following
 
 ### Sublime Text and Visual Studio Code
 
-TODO: Add this on [install.sh](install.sh)
+> TODO: Add this on [install.sh](install.sh)
 
 - Migrate settings
 - Install plugins
@@ -51,7 +57,7 @@ TODO: Add this on [install.sh](install.sh)
 
 - Remove all the  things
 
-## Uninstall
+## Mac apps to Uninstall
 
 TODO: Add this on [install.sh](install.sh)
 
@@ -68,7 +74,7 @@ TODO: Find a way to add this on [.macos](dotfiles/macos)
 - Transfer iMessages history (`~/Library/Messages`)
 - Increase trackpad speed
 - Enable 3 finger drag for trackpad in Accessibility Settings
-- Setup Karabiner for the current external Keyboard being used
+- Setup Karabiner for the current external mechanical Keyboard I use
 - Remove `Command` + P shortcut on Xcode
 - Add custom File Templates on Xcode
 
@@ -78,4 +84,4 @@ Shoutout to these amazing people and their dotfiles for inspiring my dotfiles in
 
 - [@krausefx](https://github.com/KrauseFx) - who inspired me to create my own new-mac.
 - [@mathiasbynens](https://github.com/mathiasbynens/dotfiles) - the master of dotfiles.
-- [@identor](https://github.com/identor) - the person I could talk to about all things terminal.
+- [@identor](https://github.com/identor) - the person I could talk to about all things command line.
