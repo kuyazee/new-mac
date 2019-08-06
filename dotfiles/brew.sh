@@ -29,6 +29,7 @@ brew upgrade
 # fi;
 
 # Install Apps
+brew install rbenv
 brew install zsh
 brew install python3
 brew install node
