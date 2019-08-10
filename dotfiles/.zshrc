@@ -8,4 +8,8 @@ plugins=(zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
+source .aliases
+source .exports
+source .functions
+
 autoload -U compinit && compinit
