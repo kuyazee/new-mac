@@ -12,13 +12,16 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Run brew script
-source dotfiles/brew.sh
+source brew.sh
 
 # Update MacOS settings (defaults)
 source .macos
 
 # Install gems
-source dotfiles/gem.sh
+source gem.sh
+
+# Rsync Dotfiles Dir
+rsync -a dotfiles/ $HOME --exclude "/.macos"
 
 # Setup Symlinks (Always Run this Last or after brew script)
-source dotfiles/symlinks.sh
+source symlinks.sh

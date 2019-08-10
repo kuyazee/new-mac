@@ -1,0 +1,4 @@
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias python='/usr/bin/python3'
+alias pip='/usr/local/bin/python3 -m pip'

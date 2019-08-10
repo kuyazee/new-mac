@@ -29,14 +29,15 @@ brew upgrade
 # fi;
 
 # Install Apps
+brew install ruby
 brew install rbenv
 brew install zsh
 brew install python3
 brew install node
 brew install openssl
-brew install docker
+# brew install docker
 brew install sqlite
-brew install vapor/tap/vapor
+# brew install vapor/tap/vapor
 brew install swiftlint
 brew install swiftformat
 brew install sourcedocs
@@ -45,10 +46,13 @@ brew install cocoapods
 brew install youtube-dl
 brew install wget --with-iri
 brew install mxcl/made/swift-sh
+brew install scrcpy
+brew install tree
 
 # Work
 brew cask install android-studio
-brew cask install appcode
+brew cask install android-platform-tools
+# brew cask install appcode
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install iterm2
@@ -89,6 +93,13 @@ brew cask install spotify
 brew cask install vlc
 brew cask install iina
 brew cask install youtube-to-mp3
+
+# Flutter Reqs
+brew install --HEAD usbmuxd
+brew link usbmuxd
+brew install --HEAD libimobiledevice
+brew install ideviceinstaller 
+brew install ios-deploy
 
 # Remove outdated versions from the cellar.
 brew cleanup
