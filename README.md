@@ -6,10 +6,16 @@ Here's my one script to rule them all, find them, bring them all, and while I'm 
 
 # Installation
 
-Run [install.sh](install.sh) on the terminal.
+Run [install.sh](install.sh) on the terminal after cloning the repository. 
+
+**Note:** Make sure you're already inside your projects directory
 
 ```bash
-sh install.sh
+cd ~/Documents
+mkdir Projects & cd Projects
+git clone https://github.com/kuyazee/new-mac.git
+cd new-mac
+source install.sh
 ```
 
 This script does the following
