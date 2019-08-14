@@ -31,21 +31,20 @@ brew upgrade
 # Install Apps
 brew install ruby
 brew install rbenv
-brew install zsh
 brew install python3
 brew install node
 brew install openssl
 # brew install docker
-brew install sqlite
+# brew install sqlite
 # brew install vapor/tap/vapor
 brew install swiftlint
 brew install swiftformat
 brew install sourcedocs
-brew install postgres
+# brew install postgres
 brew install cocoapods
-brew install youtube-dl
+# brew install youtube-dl
 brew install wget --with-iri
-brew install mxcl/made/swift-sh
+# brew install mxcl/made/swift-sh
 brew install scrcpy
 brew install tree
 
