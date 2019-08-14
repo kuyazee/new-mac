@@ -41,9 +41,8 @@ brew install swiftlint
 brew install swiftformat
 brew install sourcedocs
 # brew install postgres
-brew install cocoapods
 # brew install youtube-dl
-brew install wget --with-iri
+brew install wget
 # brew install mxcl/made/swift-sh
 brew install scrcpy
 brew install tree
