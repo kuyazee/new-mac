@@ -2,10 +2,11 @@ wget https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_
 unzip temp.zip -d "$HOME/"
 rm temp.zip
 
-
 # Export Flutter Path just for this session
 export PATH="$HOME/flutter/bin:$PATH"
 
+flutter precache
+flutter upgrade
 flutter precache
 
 # Flutter Reqs

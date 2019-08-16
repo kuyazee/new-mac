@@ -92,12 +92,5 @@ brew cask install vlc
 brew cask install iina
 brew cask install youtube-to-mp3
 
-# Flutter Reqs
-brew install --HEAD usbmuxd
-brew link usbmuxd
-brew install --HEAD libimobiledevice
-brew install ideviceinstaller 
-brew install ios-deploy
-
 # Remove outdated versions from the cellar.
 brew cleanup

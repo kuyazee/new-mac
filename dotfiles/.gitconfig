@@ -4,3 +4,4 @@
 [core]
 	safecrlf = false
 	editor = /usr/bin/vim
+	excludesfile = ~/.gitignore_global
