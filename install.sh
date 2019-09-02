@@ -17,11 +17,11 @@ source oh-my-zsh.sh
 # Setup Cocoapods
 source cocoapods.sh
 
+# Update MacOS settings (defaults)
+source dotfiles/.macos
+
 # Run brew script
 source brew.sh
-
-# Update MacOS settings (defaults)
-source .macos
 
 # Install gems
 source gem.sh

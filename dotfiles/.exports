@@ -12,6 +12,7 @@ export PATH="/usr/local/sbin:$PATH"
 
 # flutter
 export PATH="$HOME/flutter/bin:$PATH"
+export PATH="$HOME/flutter/.pub-cache/bin:$PATH"
 
 # adb
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
