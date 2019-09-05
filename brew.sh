@@ -37,11 +37,11 @@ brew install openssl
 # brew install docker
 # brew install sqlite
 # brew install vapor/tap/vapor
+# brew install postgres
 brew install swiftlint
 brew install swiftformat
 brew install sourcedocs
-# brew install postgres
-# brew install youtube-dl
+brew install youtube-dl
 brew install wget
 # brew install mxcl/made/swift-sh
 brew install scrcpy
