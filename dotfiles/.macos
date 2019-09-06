@@ -227,9 +227,6 @@ find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -dele
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
-# Allow Simulator to be put on Full Screen Mode
-defaults write com.apple.iphonesimulator AllowFullscreenMode -bool YES
-
 # Add a spacer to the left side of the Dock (where the applications are)
 #defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 # Add a spacer to the right side of the Dock (where the Trash is)
@@ -370,6 +367,13 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # Disable continuous spell checking
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
+###############################################################################
+# Xcode                                                                       #
+###############################################################################
+
+# Allow Simulator to be put on Full Screen Mode
+defaults write com.apple.iphonesimulator AllowFullscreenMode -bool YES
+
 for app in "Activity Monitor" \
 	"Address Book" \
 	"Calendar" \
@@ -381,8 +385,10 @@ for app in "Activity Monitor" \
 	"Photos" \
 	"Safari" \
 	"SystemUIServer" \
+	"Simulator" \
 	"Terminal" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+
