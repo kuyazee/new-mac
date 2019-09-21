@@ -11,7 +11,7 @@ Run [install.sh](install.sh) on the terminal after cloning the repository.
 **Note:** Make sure you're already inside your projects directory
 
 ```bash
-cd ~/Documents
+cd ~
 mkdir Projects & cd Projects
 git clone https://github.com/kuyazee/new-mac.git
 cd new-mac
