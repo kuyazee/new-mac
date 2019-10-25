@@ -15,3 +15,5 @@ brew link usbmuxd
 brew install --HEAD libimobiledevice
 brew install ideviceinstaller 
 brew install ios-deploy
+brew tap dart-lang/dart
+brew install dart

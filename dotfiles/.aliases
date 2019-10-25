@@ -1,4 +1,5 @@
 alias zshconfig="code ~/.zshrc"
+alias newmac="code ~/Projects/kuyazee/new-mac"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias python='/usr/bin/python3'
 alias pip='/usr/local/bin/python3 -m pip'
