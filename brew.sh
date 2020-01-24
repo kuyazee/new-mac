@@ -82,15 +82,15 @@ brew cask install slack
 brew cask install macdown
 brew cask install telegram
 brew cask install franz
-brew cask install discord
 brew cask install messenger
+# brew cask install discord
 
 # Personal Apps
 brew cask install steam
 brew cask install spotify
-brew cask install vlc
+# brew cask install vlc
 brew cask install iina
-brew cask install youtube-to-mp3
+# brew cask install youtube-to-mp3
 
 # Remove outdated versions from the cellar.
 brew cleanup
