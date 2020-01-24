@@ -60,7 +60,7 @@ brew cask install fastlane
 
 # Mac Experience
 brew cask install spectacle
-brew cask install karabiner
+brew cask install karabiner-elements 
 brew cask install alfred
 brew cask install monolingual
 
