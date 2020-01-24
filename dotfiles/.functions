@@ -35,3 +35,9 @@ function o() {
         open "$@";
     fi;
 }
+
+function restart-terminal() {
+    cd ~/Projects/new-mac
+    rsync -a dotfiles/ $HOME --exclude "/.macos"
+    source ~/.zshrc
+}

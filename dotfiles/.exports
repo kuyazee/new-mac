@@ -6,7 +6,7 @@ if [ -f '$HOME/google-cloud-sdk/google-cloud-sdk/completion.zsh.inc' ]; then . '
 export PATH="/usr/local/opt/libressl/bin:$PATH"
 export PATH="/usr/local/opt/gettext/bin:$PATH"
 
-# This enable fzf
+# This enables fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="/usr/local/sbin:$PATH"
 
