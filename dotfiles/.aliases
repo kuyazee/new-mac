@@ -1,5 +1,21 @@
+# Open Configuration files
+alias newmac="code ~/Projects/new-mac"
 alias zshconfig="code ~/.zshrc"
-alias newmac="code ~/Projects/kuyazee/new-mac"
 alias ohmyzsh="code ~/.oh-my-zsh"
+
+# Ease of use
 alias python='/usr/bin/python3'
 alias pip='/usr/local/bin/python3 -m pip'
+alias flco='flutter create --offline'
+alias flc='flutter create'
+
+# Wholesome Terminal Experience
+alias please='sudo'
+
+# Others
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias c='clear'
+alias wget='wget -c'
