@@ -19,3 +19,12 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias c='clear'
 alias wget='wget -c'
+
+# Git Stuff
+alias qgra='git remote add'
+alias qgpa='git push archive'
+alias qgpo='git push origin'
+alias qgraa='gra archive'
+alias qgpu='git push upstream'
+alias qgrau='gra upstream'
+alias qgfd='git fetch .'
