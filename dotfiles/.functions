@@ -41,3 +41,14 @@ function restart-terminal() {
     rsync -a dotfiles/ $HOME --exclude "/.macos"
     source ~/.zshrc
 }
+
+function gfc() {
+    git clone git@github.com:kuyazee/$@.git
+    flutter create --org com.kuyazee $@
+    cd %@
+    code .
+    git add .
+    git commit -m "Initial Commit: Generate Project"
+    git push origin master
+    stree
+}

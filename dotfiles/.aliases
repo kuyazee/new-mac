@@ -11,11 +11,13 @@ alias flc='flutter create'
 
 # Wholesome Terminal Experience
 alias please='sudo'
+alias yeet='rm'
+
 
 # Others
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
-alias c='clear'
+alias c=clear
 alias wget='wget -c'
