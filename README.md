@@ -13,6 +13,7 @@ Run [install.sh](install.sh) on the terminal after cloning the repository.
 ```bash
 cd ~
 mkdir Projects & cd Projects
+mkdir kuyazee & cd kuyazee
 git clone https://github.com/kuyazee/new-mac.git
 cd new-mac
 source install.sh

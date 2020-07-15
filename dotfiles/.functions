@@ -44,11 +44,23 @@ function restart-terminal() {
 
 function gfc() {
     git clone git@github.com:kuyazee/$@.git
-    flutter create --org com.kuyazee $@
-    cd %@
+    flcreate $@
+    cd $@
     code .
     git add .
     git commit -m "Initial Commit: Generate Project"
     git push origin master
     stree
+}
+
+function flcreate() {
+    flutter create --org com.kuyazee sample
+    mv sample "$@"
+    cd $@
+}
+
+function ginit() {
+    git init
+    git add .
+    git commit -m "Initial Commit: Generate Project"
 }
