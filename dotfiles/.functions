@@ -61,6 +61,8 @@ function flcreate() {
 
 function ginit() {
     git init
+    git checkout -b main
+    git branch -d master
     git add .
     git commit -m "Initial Commit: Generate Project"
 }
