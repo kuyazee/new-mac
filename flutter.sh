@@ -17,3 +17,14 @@ brew install ideviceinstaller
 brew install ios-deploy
 brew tap dart-lang/dart
 brew install dart
+
+# Android Runtime
+brew tap caskroom/cask
+brew tap caskroom/versions
+brew install jenv
+brew install homebrew/cask-versions/
+brew cask install java
+brew install homebrew/cask-versions/adoptopenjdk8
+
+jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+jenv add /Library/Java/JavaVirtualMachines/jdk1.11.0_2.jdk/Contents/Home

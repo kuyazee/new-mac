@@ -63,6 +63,9 @@ brew cask install spectacle
 brew cask install karabiner-elements 
 brew cask install alfred
 brew cask install monolingual
+brew cask install dozer
+brew cask install contexts
+brew cask install rocket
 
 # Quicklook
 brew cask install suspicious-package
@@ -83,7 +86,8 @@ brew cask install macdown
 brew cask install telegram
 brew cask install franz
 brew cask install messenger
-# brew cask install discord
+brew cask install discord
+brew cask install transmission
 
 # Personal Apps
 brew cask install steam
