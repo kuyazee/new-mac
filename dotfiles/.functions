@@ -54,7 +54,7 @@ function gfc() {
 }
 
 function flcreate() {
-    flutter create --org com.kuyazee sample
+    flutter create --org com.kuyazee "$@"
     mv sample "$@"
     cd $@
 }

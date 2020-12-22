@@ -27,3 +27,7 @@ export PATH="$GEM_HOME/bin:$PATH"
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# Java env
+export PATH="$HOME/.jenv/bin:$PATH
+eval "$(jenv init -)"
