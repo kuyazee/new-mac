@@ -48,53 +48,53 @@ brew install scrcpy
 brew install tree
 
 # Work
-brew cask install android-studio
-brew cask install android-platform-tools
-# brew cask install appcode
-brew cask install sublime-text
-brew cask install visual-studio-code
-brew cask install iterm2
-brew cask install sequel-pro
-brew cask install sourcetree
-brew cask install fastlane
+brew install --cask android-studio
+brew install --cask android-platform-tools
+# brew install --cask appcode
+brew install --cask sublime-text
+brew install --cask visual-studio-code
+brew install --cask iterm2
+brew install --cask sequel-pro
+brew install --cask sourcetree
+brew install --cask fastlane
 
 # Mac Experience
-brew cask install spectacle
-brew cask install karabiner-elements 
-brew cask install alfred
-brew cask install monolingual
-brew cask install dozer
-brew cask install contexts
-brew cask install rocket
+brew install --cask spectacle
+brew install --cask karabiner-elements 
+brew install --cask alfred
+brew install --cask monolingual
+brew install --cask dozer
+brew install --cask contexts
+brew install --cask rocket
 
 # Quicklook
-brew cask install suspicious-package
-brew cask install quicklook-json
-brew cask install provisionql
-brew cask install qlplayground
-brew cask install quicklookase
-brew cask install qlvideo
-brew cask install quicklookapk
-brew cask install webpquicklook
-brew cask install qlstephen
+brew install --cask suspicious-package
+brew install --cask quicklook-json
+brew install --cask provisionql
+brew install --cask qlplayground
+brew install --cask quicklookase
+brew install --cask qlvideo
+brew install --cask quicklookapk
+brew install --cask webpquicklook
+brew install --cask qlstephen
 
 # Apps
-brew cask install lastpass
-brew cask install google-chrome
-brew cask install slack
-brew cask install macdown
-brew cask install telegram
-brew cask install franz
-brew cask install messenger
-brew cask install discord
-brew cask install transmission
+brew install --cask lastpass
+brew install --cask google-chrome
+brew install --cask slack
+brew install --cask macdown
+brew install --cask telegram
+brew install --cask franz
+brew install --cask messenger
+brew install --cask discord
+brew install --cask transmission
 
 # Personal Apps
-brew cask install steam
-brew cask install spotify
-# brew cask install vlc
-brew cask install iina
-# brew cask install youtube-to-mp3
+brew install --cask steam
+brew install --cask spotify
+# brew install --cask vlc
+brew install --cask iina
+# brew install --cask youtube-to-mp3
 
 # Remove outdated versions from the cellar.
 brew cleanup
