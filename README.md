@@ -85,7 +85,41 @@ TODO: Find a way to add this on [.macos](dotfiles/macos)
 - Remove `Command` + P shortcut on Xcode
 - Add custom File Templates on Xcode
 
-# Acknowledgements
+## Notes
+
+If calling the commmand pod shows errors like the logs below
+
+```bash
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7
+Ignoring ffi-1.12.1 because its extensions are not built. Try: gem pristine ffi --version 1.12.1
+Ignoring http_parser.rb-0.6.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.6.0
+Ignoring iStats-1.6.1 because its extensions are not built. Try: gem pristine iStats --version 1.6.1
+Ignoring sassc-2.2.1 because its extensions are not built. Try: gem pristine sassc --version 2.2.1
+```
+
+Fix it by checking out the paths being used by `gem` and `pod`. Check these by calling the commands below one by one
+
+```bash
+# displays your gem environment
+gem env
+
+# displays your pod environment
+pod env
+```
+
+I fixed mine by doing the commands below
+
+```bash
+sudo /usr/bin/gem pristine ffi --version 1.12.1
+sudo /usr/bin/gem pristine eventmachine --version 1.2.7
+sudo /usr/bin/gem pristine http_parser.rb --version 0.6.0
+sudo /usr/bin/gem pristine iStats --version 1.6.1
+sudo /usr/bin/gem pristine sassc --version 2.2.1
+```
+
+My current `gem` command was linked to a different one set via `rbenv` or `homebrew`, I think
+
+## Acknowledgements
 
 Shoutout to these amazing people and their dotfiles for inspiring my dotfiles in many ways.
 
