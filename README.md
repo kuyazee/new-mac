@@ -2,7 +2,7 @@
 
 Here's my one script to rule them all, find them, bring them all, and while I'm drinking coffee, bind them.
 
->  Note: I'm lazy, as such whenever I get a new MacOS machine I want it to be Automagically setup.
+>  Note: I'm lazy, therefore, when I get a new MacOS machine I want it to be set up Automagically.
 
 # Installation
 
